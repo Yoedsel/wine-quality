@@ -9,6 +9,8 @@ from graph4 import js3, div3, cdn_jss3
 
 app=Flask(__name__)
 
+server = app.server
+
 @app.route('/')
 def index():
 
